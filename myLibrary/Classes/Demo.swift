@@ -9,8 +9,8 @@ import Foundation
 
 class Demo
 {
-    func print()
+    func printSomething()
     {
-        print("I have travis now")
+        print("abc")
     }
 }
