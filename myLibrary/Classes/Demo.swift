@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class Demo
+{
+    func print()
+    {
+        print("I have travis now")
+    }
+}
