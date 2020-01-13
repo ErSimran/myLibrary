@@ -1,6 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/ErSimran/podspecs.git'
+
 use_frameworks!
 target 'myLibrary_Tests' do
-  pod 'myLibrary', :path => '../'
+  pod 'myLibrary'
   
   
 end
