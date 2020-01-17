@@ -9,8 +9,6 @@
 # podfile: Example/Podfile
 # before_install:
 # - gem install cocoapods # Since Travis is not always on latest version
-env:
-  - XCWORKSPACE="Example/myLibrary.xcworkspace"
 
 xcode_project: Example/myLibrary.xcodeproj # path to your xcodeproj folder
 xcode_scheme: myLibrary_Tests
