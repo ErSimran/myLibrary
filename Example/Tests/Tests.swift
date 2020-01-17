@@ -20,7 +20,7 @@ class Tests: XCTestCase {
 
     func testNewExample() {
         // This is an example of a functional test case.
-        XCTAssert(2 * 2 == 5)
+        XCTAssert(2 * 2 == 4)
     }
     
     func testPerformanceExample() {
