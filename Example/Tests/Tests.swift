@@ -17,6 +17,11 @@ class Tests: XCTestCase {
         // This is an example of a functional test case.
         XCTAssert(true, "Pass")
     }
+
+    func testNewExample() {
+        // This is an example of a functional test case.
+        XCTAssert(2 * 2 == 5)
+    }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
