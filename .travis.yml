@@ -12,7 +12,8 @@
 env:
   - XCWORKSPACE="Example/myLibrary.xcworkspace"
 
-install:
-  - bundle install
-script:
-  - fastlane tests
+xcode_project: Example/myLibrary.xcodeproj # path to your xcodeproj folder
+xcode_scheme: myLibrary_Tests
+xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
+
+
