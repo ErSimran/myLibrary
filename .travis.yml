@@ -4,10 +4,11 @@
 
    language: 
      - swift
-xcode_project: Example/myLibrary.xcodeproj # path to your xcodeproj folder
+   osx_image: xcode10.1
+xcode_workspace: Example/myLibrary.xcworkspace # path to your xcodeproj folder
 xcode_scheme: myLibrary_Tests
 xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
-   osx_image: xcode10.1
+   
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
