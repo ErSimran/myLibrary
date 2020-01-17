@@ -9,6 +9,8 @@
 # podfile: Example/Podfile
 # before_install:
 # - gem install cocoapods # Since Travis is not always on latest version
+env:
+  - XCWORKSPACE="Example/myLibrary.xcworkspace"
 
 install:
   - bundle install
