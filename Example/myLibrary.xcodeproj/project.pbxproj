@@ -13,13 +13,13 @@
 
 /* Begin PBXFileReference section */
 		0314CD21BFA2FC4521B3915C /* Pods-myLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-myLibrary_Tests/Pods-myLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		425D4708DA2017E6E76B6420 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		425D4708DA2017E6E76B6420 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* myLibrary_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myLibrary_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7EB3BA933AA97F8E7A0C8CCD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7EB3BA933AA97F8E7A0C8CCD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		98EE8748BAA5DEC315E64498 /* Pods-myLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-myLibrary_Tests/Pods-myLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CC0274995E672DF17A73D051 /* myLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = myLibrary.podspec; path = ../myLibrary.podspec; sourceTree = "<group>"; };
+		CC0274995E672DF17A73D051 /* myLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = myLibrary.podspec; path = ../myLibrary.podspec; sourceTree = "<group>"; };
 		D74F2F91CEF0A0A864460536 /* Pods_myLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,6 @@
 				98EE8748BAA5DEC315E64498 /* Pods-myLibrary_Tests.debug.xcconfig */,
 				0314CD21BFA2FC4521B3915C /* Pods-myLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,14 +130,9 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -147,6 +141,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -342,7 +337,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myLibrary_Example.app/myLibrary_Example";
 			};
 			name = Debug;
 		};
@@ -360,7 +354,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myLibrary_Example.app/myLibrary_Example";
 			};
 			name = Release;
 		};
