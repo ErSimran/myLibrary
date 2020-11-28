@@ -11,6 +11,6 @@ class Demo
 {
     func printSomething()
     {
-        print("abcde")
+        print("abcdef")
     }
 }
