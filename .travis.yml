@@ -1,14 +1,11 @@
 # references:
 # * https://www.objc.io/issues/6-build-tools/travis-ci/
 # * https://github.com/supermarin/xcpretty#usage
-before_install:
-- cd ./Example
 language: swift
 osx_image: xcode10.1
 xcode_workspace: myLibrary.xcworkspace # path to your xcodeproj folder
 xcode_scheme: myLibrary-Example
 xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
-   
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
