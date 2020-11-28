@@ -26,4 +26,5 @@ simransingh0232, simransingh0232@gmail.com
 
 ## License
 
-myLibrary is available under the MIT license. See the LICENSE file for more info. YEsPlease
+myLibrary is available under the MIT license. See the LICENSE file for more info. 
+Build running through CI
